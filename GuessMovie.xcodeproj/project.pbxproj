@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B473A94286A264A008F9277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473A93286A264A008F9277 /* AppDelegate.swift */; };
+		2B473A96286A264A008F9277 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473A95286A264A008F9277 /* SceneDelegate.swift */; };
+		2B473A98286A264A008F9277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473A97286A264A008F9277 /* ViewController.swift */; };
+		2B473A9B286A264A008F9277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B473A99286A264A008F9277 /* Main.storyboard */; };
+		2B473A9D286A264C008F9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B473A9C286A264C008F9277 /* Assets.xcassets */; };
+		2B473AA0286A264C008F9277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B473A9E286A264C008F9277 /* LaunchScreen.storyboard */; };
+		2B473AA5286A264C008F9277 /* GuessMovie WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2B473AA4286A264C008F9277 /* GuessMovie WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B473AAB286A264C008F9277 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B473AA9286A264C008F9277 /* Interface.storyboard */; };
+		2B473AAD286A264D008F9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B473AAC286A264D008F9277 /* Assets.xcassets */; };
+		2B473AB3286A264E008F9277 /* GuessMovie WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B473AB2286A264E008F9277 /* GuessMovie WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2B473AB8286A264E008F9277 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473AB7286A264E008F9277 /* InterfaceController.swift */; };
+		2B473ABA286A264E008F9277 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */; };
+		2B473ABC286A264E008F9277 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473ABB286A264E008F9277 /* ComplicationController.swift */; };
+		2B473ABE286A264F008F9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B473ABD286A264F008F9277 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B473AA6286A264C008F9277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B473A88286A264A008F9277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B473AA3286A264C008F9277;
+			remoteInfo = "GuessMovie WatchKit App";
+		};
+		2B473AB4286A264E008F9277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B473A88286A264A008F9277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B473AB1286A264E008F9277;
+			remoteInfo = "GuessMovie WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B473AC5286A264F008F9277 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2B473AB3286A264E008F9277 /* GuessMovie WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B473AC9286A264F008F9277 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2B473AA5286A264C008F9277 /* GuessMovie WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B473A90286A264A008F9277 /* GuessMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B473A93286A264A008F9277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B473A95286A264A008F9277 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B473A97286A264A008F9277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B473A9A286A264A008F9277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B473A9C286A264C008F9277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B473A9F286A264C008F9277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B473AA1286A264C008F9277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B473AA4286A264C008F9277 /* GuessMovie WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuessMovie WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B473AAA286A264C008F9277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2B473AAC286A264D008F9277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B473AB2286A264E008F9277 /* GuessMovie WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuessMovie WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B473AB7286A264E008F9277 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2B473ABB286A264E008F9277 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2B473ABD286A264F008F9277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B473ABF286A264F008F9277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B473A8D286A264A008F9277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B473AAF286A264E008F9277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B473A87286A264A008F9277 = {
+			isa = PBXGroup;
+			children = (
+				2B473A92286A264A008F9277 /* GuessMovie */,
+				2B473AA8286A264C008F9277 /* GuessMovie WatchKit App */,
+				2B473AB6286A264E008F9277 /* GuessMovie WatchKit Extension */,
+				2B473A91286A264A008F9277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B473A91286A264A008F9277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B473A90286A264A008F9277 /* GuessMovie.app */,
+				2B473AA4286A264C008F9277 /* GuessMovie WatchKit App.app */,
+				2B473AB2286A264E008F9277 /* GuessMovie WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B473A92286A264A008F9277 /* GuessMovie */ = {
+			isa = PBXGroup;
+			children = (
+				2B473A93286A264A008F9277 /* AppDelegate.swift */,
+				2B473A95286A264A008F9277 /* SceneDelegate.swift */,
+				2B473A97286A264A008F9277 /* ViewController.swift */,
+				2B473A99286A264A008F9277 /* Main.storyboard */,
+				2B473A9C286A264C008F9277 /* Assets.xcassets */,
+				2B473A9E286A264C008F9277 /* LaunchScreen.storyboard */,
+				2B473AA1286A264C008F9277 /* Info.plist */,
+			);
+			path = GuessMovie;
+			sourceTree = "<group>";
+		};
+		2B473AA8286A264C008F9277 /* GuessMovie WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2B473AA9286A264C008F9277 /* Interface.storyboard */,
+				2B473AAC286A264D008F9277 /* Assets.xcassets */,
+			);
+			path = "GuessMovie WatchKit App";
+			sourceTree = "<group>";
+		};
+		2B473AB6286A264E008F9277 /* GuessMovie WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2B473AB7286A264E008F9277 /* InterfaceController.swift */,
+				2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */,
+				2B473ABB286A264E008F9277 /* ComplicationController.swift */,
+				2B473ABD286A264F008F9277 /* Assets.xcassets */,
+				2B473ABF286A264F008F9277 /* Info.plist */,
+			);
+			path = "GuessMovie WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B473A8F286A264A008F9277 /* GuessMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B473ACA286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie" */;
+			buildPhases = (
+				2B473A8C286A264A008F9277 /* Sources */,
+				2B473A8D286A264A008F9277 /* Frameworks */,
+				2B473A8E286A264A008F9277 /* Resources */,
+				2B473AC9286A264F008F9277 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B473AA7286A264C008F9277 /* PBXTargetDependency */,
+			);
+			name = GuessMovie;
+			productName = GuessMovie;
+			productReference = 2B473A90286A264A008F9277 /* GuessMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B473AA3286A264C008F9277 /* GuessMovie WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B473AC6286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie WatchKit App" */;
+			buildPhases = (
+				2B473AA2286A264C008F9277 /* Resources */,
+				2B473AC5286A264F008F9277 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B473AB5286A264E008F9277 /* PBXTargetDependency */,
+			);
+			name = "GuessMovie WatchKit App";
+			productName = "GuessMovie WatchKit App";
+			productReference = 2B473AA4286A264C008F9277 /* GuessMovie WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2B473AB1286A264E008F9277 /* GuessMovie WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B473AC2286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie WatchKit Extension" */;
+			buildPhases = (
+				2B473AAE286A264E008F9277 /* Sources */,
+				2B473AAF286A264E008F9277 /* Frameworks */,
+				2B473AB0286A264E008F9277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GuessMovie WatchKit Extension";
+			productName = "GuessMovie WatchKit Extension";
+			productReference = 2B473AB2286A264E008F9277 /* GuessMovie WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B473A88286A264A008F9277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2B473A8F286A264A008F9277 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2B473AA3286A264C008F9277 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2B473AB1286A264E008F9277 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 2B473A8B286A264A008F9277 /* Build configuration list for PBXProject "GuessMovie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B473A87286A264A008F9277;
+			productRefGroup = 2B473A91286A264A008F9277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B473A8F286A264A008F9277 /* GuessMovie */,
+				2B473AA3286A264C008F9277 /* GuessMovie WatchKit App */,
+				2B473AB1286A264E008F9277 /* GuessMovie WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B473A8E286A264A008F9277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B473AA0286A264C008F9277 /* LaunchScreen.storyboard in Resources */,
+				2B473A9D286A264C008F9277 /* Assets.xcassets in Resources */,
+				2B473A9B286A264A008F9277 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B473AA2286A264C008F9277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B473AAD286A264D008F9277 /* Assets.xcassets in Resources */,
+				2B473AAB286A264C008F9277 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B473AB0286A264E008F9277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B473ABE286A264F008F9277 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B473A8C286A264A008F9277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B473A98286A264A008F9277 /* ViewController.swift in Sources */,
+				2B473A94286A264A008F9277 /* AppDelegate.swift in Sources */,
+				2B473A96286A264A008F9277 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B473AAE286A264E008F9277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B473ABA286A264E008F9277 /* ExtensionDelegate.swift in Sources */,
+				2B473AB8286A264E008F9277 /* InterfaceController.swift in Sources */,
+				2B473ABC286A264E008F9277 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B473AA7286A264C008F9277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B473AA3286A264C008F9277 /* GuessMovie WatchKit App */;
+			targetProxy = 2B473AA6286A264C008F9277 /* PBXContainerItemProxy */;
+		};
+		2B473AB5286A264E008F9277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B473AB1286A264E008F9277 /* GuessMovie WatchKit Extension */;
+			targetProxy = 2B473AB4286A264E008F9277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B473A99286A264A008F9277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B473A9A286A264A008F9277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B473A9E286A264C008F9277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B473A9F286A264C008F9277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2B473AA9286A264C008F9277 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B473AAA286A264C008F9277 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B473AC0286A264F008F9277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B473AC1286A264F008F9277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B473AC3286A264F008F9277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GuessMovie WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GuessMovie WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2B473AC4286A264F008F9277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GuessMovie WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GuessMovie WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2B473AC7286A264F008F9277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = GuessMovie_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "GuessMovie WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.thefiltitoff.GuessMovie;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		2B473AC8286A264F008F9277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = GuessMovie_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "GuessMovie WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.thefiltitoff.GuessMovie;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		2B473ACB286A264F008F9277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B473ACC286A264F008F9277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RB3BCBLCA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuessMovie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thefiltitoff.GuessMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B473A8B286A264A008F9277 /* Build configuration list for PBXProject "GuessMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B473AC0286A264F008F9277 /* Debug */,
+				2B473AC1286A264F008F9277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B473AC2286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B473AC3286A264F008F9277 /* Debug */,
+				2B473AC4286A264F008F9277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B473AC6286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B473AC7286A264F008F9277 /* Debug */,
+				2B473AC8286A264F008F9277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B473ACA286A264F008F9277 /* Build configuration list for PBXNativeTarget "GuessMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B473ACB286A264F008F9277 /* Debug */,
+				2B473ACC286A264F008F9277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B473A88286A264A008F9277 /* Project object */;
+}

@@ -18,11 +18,18 @@
                                 </label>
                                 <button width="1" alignment="center" verticalAlignment="center" title="🎩🍀" id="3i6-tv-doU">
                                     <fontDescription key="font" type="system" pointSize="26"/>
+                                    <connections>
+                                        <action selector="emojiButtonTapped" destination="AgC-eL-Hgc" id="B21-1P-8gt"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="emojiButton" destination="3i6-tv-doU" id="44h-Qe-e8t"/>
+                        <outlet property="nameLabel" destination="7ts-Bm-FKl" id="Hjs-8F-tfq"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="-15" y="16"/>

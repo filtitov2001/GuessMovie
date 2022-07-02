@@ -21,6 +21,7 @@
 		2B473ABA286A264E008F9277 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */; };
 		2B473ABC286A264E008F9277 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B473ABB286A264E008F9277 /* ComplicationController.swift */; };
 		2B473ABE286A264F008F9277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B473ABD286A264F008F9277 /* Assets.xcassets */; };
+		2BF2D5C0287059FC00D9FD8E /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2D5BF287059FC00D9FD8E /* Film.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		2B473ABB286A264E008F9277 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		2B473ABD286A264F008F9277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B473ABF286A264F008F9277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF2D5BF287059FC00D9FD8E /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				2B473AB7286A264E008F9277 /* InterfaceController.swift */,
+				2BF2D5BF287059FC00D9FD8E /* Film.swift */,
 				2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */,
 				2B473ABB286A264E008F9277 /* ComplicationController.swift */,
 				2B473ABD286A264F008F9277 /* Assets.xcassets */,
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B473ABA286A264E008F9277 /* ExtensionDelegate.swift in Sources */,
+				2BF2D5C0287059FC00D9FD8E /* Film.swift in Sources */,
 				2B473AB8286A264E008F9277 /* InterfaceController.swift in Sources */,
 				2B473ABC286A264E008F9277 /* ComplicationController.swift in Sources */,
 			);

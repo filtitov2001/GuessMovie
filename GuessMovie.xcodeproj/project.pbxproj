@@ -142,7 +142,7 @@
 		2B473AA8286A264C008F9277 /* GuessMovie WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				2B473AA9286A264C008F9277 /* Interface.storyboard */,
+				2BF2D5C428705FB400D9FD8E /* View */,
 				2B473AAC286A264D008F9277 /* Assets.xcassets */,
 			);
 			path = "GuessMovie WatchKit App";
@@ -151,14 +151,46 @@
 		2B473AB6286A264E008F9277 /* GuessMovie WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2B473AB7286A264E008F9277 /* InterfaceController.swift */,
-				2BF2D5BF287059FC00D9FD8E /* Film.swift */,
-				2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */,
-				2B473ABB286A264E008F9277 /* ComplicationController.swift */,
+				2BF2D5C228705F9600D9FD8E /* Controllers */,
+				2BF2D5C128705F8900D9FD8E /* Model */,
+				2BF2D5C328705FA200D9FD8E /* Extensions */,
 				2B473ABD286A264F008F9277 /* Assets.xcassets */,
 				2B473ABF286A264F008F9277 /* Info.plist */,
 			);
 			path = "GuessMovie WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2BF2D5C128705F8900D9FD8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2D5BF287059FC00D9FD8E /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BF2D5C228705F9600D9FD8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B473AB7286A264E008F9277 /* InterfaceController.swift */,
+				2B473ABB286A264E008F9277 /* ComplicationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2BF2D5C328705FA200D9FD8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B473AB9286A264E008F9277 /* ExtensionDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BF2D5C428705FB400D9FD8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B473AA9286A264C008F9277 /* Interface.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
